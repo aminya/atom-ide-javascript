@@ -4,15 +4,15 @@ importers:
 
   .:
     specifiers:
-      '@atom-ide-community/nuclide-commons-atom': 0.8.2
-      '@atom-ide-community/nuclide-debugger-common': 0.8.2
+      '@atom-ide-community/nuclide-commons-atom': 0.8.3
+      '@atom-ide-community/nuclide-debugger-common': 0.8.3
       '@babel/cli': 7.15.7
       '@babel/core': 7.15.5
       '@types/atom': 1.40.11
       '@types/jasmine': ^3.6.7
       '@types/node': ^16.0.0
       atom-jasmine3-test-runner: ^5.2.2
-      atom-package-deps: ^6.0.0
+      atom-package-deps: ^8.0.0
       babel-preset-atomic: ^4.0.0
       build-commit: 0.1.4
       coffeescript: ^2.5.1
@@ -21,23 +21,23 @@ importers:
       eslint-config-atomic: ^1.12.4
       npm-check-updates: 11.8.5
       prettier: ^2.2.1
-      react: 16.6.3
+      react: 17.0.2
       rollup: ^2.42.1
       rollup-plugin-atomic: ^3.0.0
       shx: ^0.3.3
       tslib: ^2.1.0
       typescript: ^4.2.3
-      vscode-chrome-debug-core: 3.17.10
-      vscode-debugadapter: 1.24.0
-      vscode-nls: 2.0.2
+      vscode-chrome-debug-core: 6.8.11
+      vscode-debugadapter: 1.49.0
+      vscode-nls: 5.0.0
     dependencies:
-      '@atom-ide-community/nuclide-commons-atom': 0.8.2
-      '@atom-ide-community/nuclide-debugger-common': 0.8.2
-      atom-package-deps: 6.0.0
-      react: 16.6.3
-      vscode-chrome-debug-core: 3.17.10
-      vscode-debugadapter: 1.24.0
-      vscode-nls: 2.0.2
+      '@atom-ide-community/nuclide-commons-atom': 0.8.3
+      '@atom-ide-community/nuclide-debugger-common': 0.8.3
+      atom-package-deps: 8.0.0
+      react: 17.0.2
+      vscode-chrome-debug-core: 6.8.11
+      vscode-debugadapter: 1.49.0
+      vscode-nls: 5.0.0
     devDependencies:
       '@babel/cli': 7.15.7_@babel+core@7.15.5
       '@babel/core': 7.15.5
@@ -61,22 +61,22 @@ importers:
 
 packages:
 
-  /@atom-ide-community/nuclide-adb/0.8.2:
-    resolution: {integrity: sha512-4fx5Uh2IXq90NB4OrY++19ozEBTTDmS5bL42dIDypsqzE4s6U/85baaf1A0q91ibYut44Fekozjgv8amaP4qPg==}
+  /@atom-ide-community/nuclide-adb/0.8.3:
+    resolution: {integrity: sha512-DdDkB0vA0Qbtnh657JI0J1Crg9wR9+aEtOKxBn+JvQe5H8znESro90/jPNFBBS2BLA9rjhusUbk9RSQ1pZbMtw==}
     engines: {atom: '>= 1.17.0'}
     dependencies:
-      '@atom-ide-community/nuclide-commons': 0.8.2
-      '@atom-ide-community/nuclide-commons-atom': 0.8.2
+      '@atom-ide-community/nuclide-commons': 0.8.3
+      '@atom-ide-community/nuclide-commons-atom': 0.8.3
       log4js: 1.1.1
       nullthrows: 1.1.1
       rxjs-compat: 6.3.3
       shallowequal: 1.1.0
     dev: false
 
-  /@atom-ide-community/nuclide-commons-atom/0.8.2:
-    resolution: {integrity: sha512-3ntroAE/ErpcWEXFqDe1V5pBonCE60DyECamgonDkYcSveLazQiPC84kbhZg/RuLl1qAR5G58rBeRSB3g3hhXg==}
+  /@atom-ide-community/nuclide-commons-atom/0.8.3:
+    resolution: {integrity: sha512-EfSvsqi1pKNSYXEjOgKAOanTd3eOgW9ULr/ZTyp1M6b8vx9eFNCKMfckSDPpoADm8myIqEwB8NM+qDB0dAyEVg==}
     dependencies:
-      '@atom-ide-community/nuclide-commons': 0.8.2
+      '@atom-ide-community/nuclide-commons': 0.8.3
       escape-string-regexp: 1.0.5
       idb-keyval: 2.3.0
       idx: 1.2.0
@@ -93,11 +93,11 @@ packages:
       vscode-jsonrpc: 3.3.0
     dev: false
 
-  /@atom-ide-community/nuclide-commons-ui/0.8.2:
-    resolution: {integrity: sha512-GCl4fEooWNXtIPjFsvLs9hunyt2n28Dn8PFZK+TyMk1161abHqGlC4WT4K7kKW190yMszpqABDYyR2DcTIHLug==}
+  /@atom-ide-community/nuclide-commons-ui/0.8.3:
+    resolution: {integrity: sha512-jz9L1YrQposuPNuUZ9meB9LAXRSfm0UEva4+jjl4HCVXbMxEu+cEhLCFuvP5d/NorCxhIjIqkHjf3cxFyE2ONQ==}
     dependencies:
-      '@atom-ide-community/nuclide-commons': 0.8.2
-      '@atom-ide-community/nuclide-commons-atom': 0.8.2
+      '@atom-ide-community/nuclide-commons': 0.8.3
+      '@atom-ide-community/nuclide-commons-atom': 0.8.3
       anser: 1.4.6
       classnames: 2.2.6
       dedent: 0.7.0
@@ -111,9 +111,9 @@ packages:
       log4js: 1.1.1
       moment: 2.29.1
       nullthrows: 1.1.1
-      react: 16.6.3
-      react-dom: 16.6.3_react@16.6.3
-      react-virtualized: 9.20.1_react-dom@16.6.3+react@16.6.3
+      react: 17.0.1
+      react-dom: 17.0.1_react@17.0.1
+      react-virtualized: 9.20.1_react-dom@17.0.1+react@17.0.1
       rxjs-compat: 6.3.3
       semver: 5.5.0
       shallowequal: 1.1.0
@@ -121,13 +121,13 @@ packages:
       tiny-date-picker: 3.2.8
     dev: false
 
-  /@atom-ide-community/nuclide-commons/0.8.2:
-    resolution: {integrity: sha512-bZ2bjGbqF6C93KcW3bzb2Lgp84MG48PZbswkxNDQAYhkzB4DT4XtRCnvAy7ZKjIxnLihnfvKk3qBWbqgEoHFgg==}
+  /@atom-ide-community/nuclide-commons/0.8.3:
+    resolution: {integrity: sha512-VD0j9FMDtFnaLDRxrpegLSl5Hw6Ml7fg6DoIcsOYQRUJCwJNdk2pxvmg5UWBGLrR+tXYBnlyRJ5cZ1UCR4xVhA==}
     dependencies:
-      '@atom-ide-community/nuclide-node-transpiler': 0.8.2
+      '@atom-ide-community/nuclide-node-transpiler': 0.8.3
       cr: 0.1.0
       domexception: 1.0.1
-      dompurify: 2.1.1
+      dompurify: 2.2.6
       event-kit: 2.2.0
       event-target-shim: 3.0.1
       fs-plus: 3.1.1
@@ -149,25 +149,25 @@ packages:
       vscode-uri: 1.0.1
     dev: false
 
-  /@atom-ide-community/nuclide-debugger-common/0.8.2:
-    resolution: {integrity: sha512-K4yXNM+dFvGThS2HpNWYuPv2BlK/xcWuX/UrOe50KBWYi56gUeQE7kB+V9kKRRsok6qKyGaSh4pFTsp4l3kArQ==}
+  /@atom-ide-community/nuclide-debugger-common/0.8.3:
+    resolution: {integrity: sha512-7FEgsTA1ikqY9Wb6oaJ4wGoolH3cLxz5FF7cnLuNjVBKmLibds9TQrHevh483v/nenu0X3tto+I7zmtEu8Ysaw==}
     dependencies:
-      '@atom-ide-community/nuclide-adb': 0.8.2
-      '@atom-ide-community/nuclide-commons': 0.8.2
-      '@atom-ide-community/nuclide-commons-atom': 0.8.2
-      '@atom-ide-community/nuclide-commons-ui': 0.8.2
+      '@atom-ide-community/nuclide-adb': 0.8.3
+      '@atom-ide-community/nuclide-commons': 0.8.3
+      '@atom-ide-community/nuclide-commons-atom': 0.8.3
+      '@atom-ide-community/nuclide-commons-ui': 0.8.3
       idx: 1.2.0
       immutable: 4.0.0-rc.12
       invariant: /@react-dnd/invariant/2.0.0
       nullthrows: 1.1.1
-      react: 16.6.3
+      react: 17.0.1
       rxjs-compat: 6.3.3
       uuid: 3.0.1
       vscode-debugprotocol: 1.24.0
     dev: false
 
-  /@atom-ide-community/nuclide-node-transpiler/0.8.2:
-    resolution: {integrity: sha512-5T9v0cTnXcQMLMWUJYt9Y1ptpYD2w/T+qI1pwbbGCd+9K6liwQfLo0QKn43th5uSVLji3TsaN9/gayUdAKsnww==}
+  /@atom-ide-community/nuclide-node-transpiler/0.8.3:
+    resolution: {integrity: sha512-B9TvBtyXYPOx0gn6MGV8ApJJ0Uu/sesgqV5wA2QwbKX8Z6ALpI2GzRC2lQb/74zNWHMw26yaUp8t/XvRBTDaqQ==}
     dependencies:
       glob: 7.1.6
       mkdirp: 1.0.4
@@ -1855,17 +1855,10 @@ packages:
       regenerator-runtime: 0.13.6
     dev: true
 
-  /@babel/runtime/7.10.5:
-    resolution: {integrity: sha512-otddXKhdNn7d0ptoFRHtMLa8LqDxLYwTjB4nYgM1yy5N6gU/MUf8zqyyLltCH3yAVitBzmwK4us+DD0l/MauAg==}
-    dependencies:
-      regenerator-runtime: 0.13.6
-    dev: false
-
   /@babel/runtime/7.13.9:
     resolution: {integrity: sha512-aY2kU+xgJ3dJ1eU6FMB9EH8dIe8dmusF1xEku52joLvw6eAFN0AI+WxCLDnpev2LEejWBAy2sBvBOBAjI3zmvA==}
     dependencies:
       regenerator-runtime: 0.13.6
-    dev: true
 
   /@babel/template/7.12.13:
     resolution: {integrity: sha512-/7xxiGA57xMo/P2GVvdEumr8ONhFOhfgq2ihK3h1e6THqzTAkHbkXgB0xI9yeTfIUoH3+oAeHhqm/I43OTbbjA==}
@@ -2407,10 +2400,6 @@ packages:
     hasBin: true
     dev: true
 
-  /agent-base/1.0.2:
-    resolution: {integrity: sha1-aJDT+yFwBLYrcPiSjg+uX4lSpwY=}
-    dev: false
-
   /agent-base/6.0.1:
     resolution: {integrity: sha512-01q25QQDwLSsyfhrKbn8yuur+JNw0H+0Y4JiGIKd3z9aYk/w/2kxD/Upc+t2ZBBSUNff50VjPsSW2YxM8QYKVg==}
     engines: {node: '>= 6.0.0'}
@@ -2659,6 +2648,10 @@ packages:
     dev: true
     optional: true
 
+  /async-limiter/1.0.1:
+    resolution: {integrity: sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==}
+    dev: false
+
   /async/1.5.2:
     resolution: {integrity: sha1-7GphrlZIDAw8skHJVhjiCJL5Zyo=}
 
@@ -2696,11 +2689,9 @@ packages:
       '@types/jasmine': 3.6.7
     dev: true
 
-  /atom-package-deps/6.0.0:
-    resolution: {integrity: sha512-9UQx2sTvBiaIHcZ3le/B0djM+jsZXBQRPXatrmtNfjkbAOV5bGrcXzcV4U0EBfGdzB7QmWeOnwMIJwa3HvW7Kg==}
-    dependencies:
-      sb-fs: 4.0.0
-      semver: 7.3.2
+  /atom-package-deps/8.0.0:
+    resolution: {integrity: sha512-TSY6WX4+QbMK9r6iCY99hNW+9vW7SF0zGHfnMLgiinMj5VR5MNQIhU+2pVXqIbGWnl32uqBAKB+iBztUV0ssyg==}
+    hasBin: true
     dev: false
 
   /aws-sign2/0.7.0:
@@ -3308,7 +3299,6 @@ packages:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
     dependencies:
       color-name: 1.1.3
-    dev: true
 
   /color-convert/2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
@@ -3319,11 +3309,23 @@ packages:
 
   /color-name/1.1.3:
     resolution: {integrity: sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=}
-    dev: true
 
   /color-name/1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
-    dev: true
+
+  /color-string/1.6.0:
+    resolution: {integrity: sha512-c/hGS+kRWJutUBEngKKmk4iH3sD59MBkoxVapS/0wgpCz2u7XsNloxknyvBhzwEs1IbV36D9PwqLPJ2DTu3vMA==}
+    dependencies:
+      color-name: 1.1.4
+      simple-swizzle: 0.2.2
+    dev: false
+
+  /color/3.2.1:
+    resolution: {integrity: sha512-aBl7dZI9ENN6fUGC7mWpMTPNHmWUSNan9tuWN6ahh5ZLNk9baLJOnSMlrQkHcrfFgz2/RigjUVAjdx36VcemKA==}
+    dependencies:
+      color-convert: 1.9.3
+      color-string: 1.6.0
+    dev: false
 
   /colorette/1.2.2:
     resolution: {integrity: sha512-MKGMzyfeuutC/ZJ1cba9NqcNpfeqMUcYmyF1ZFY6/Cn7CNSAKx6a+s48sqLqyAiZuaP2TcqMhoo+dlwFnVxT9w==}
@@ -3434,7 +3436,7 @@ packages:
 
   /core-js/2.6.11:
     resolution: {integrity: sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==}
-    deprecated: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+    deprecated: core-js@<3.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
     requiresBuild: true
 
   /core-util-is/1.0.2:
@@ -3645,6 +3647,10 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
+  /devtools-protocol/0.0.588169:
+    resolution: {integrity: sha512-DDGCT3YFiamX4jRPqg4galOrQS8DsU0j+xM5iaR0YB5TM1fjCZejQ7MSe9ByIMIq4IsnULY/4Qp3TBWAUjMgXw==}
+    dev: false
+
   /diffparser/1.1.0:
     resolution: {integrity: sha1-oG8Tn1LPUCiw4Ki8KOFgr0hjDVg=}
     dev: false
@@ -3681,7 +3687,7 @@ packages:
   /dom-helpers/3.4.0:
     resolution: {integrity: sha512-LnuPJ+dwqKDIyotW1VzmOZ5TONUN7CwkCR5hrgawTUbkBGYdeoNLZo6nNfGkCrjtE1nXXaj7iMMpDa8/d9WoIA==}
     dependencies:
-      '@babel/runtime': 7.10.5
+      '@babel/runtime': 7.13.9
     dev: false
 
   /dom-serializer/0.2.2:
@@ -3711,8 +3717,8 @@ packages:
       domelementtype: 1.3.1
     dev: true
 
-  /dompurify/2.1.1:
-    resolution: {integrity: sha512-NijiNVkS/OL8mdQL1hUbCD6uty/cgFpmNiuFxrmJ5YPH2cXrPKIewoixoji56rbZ6XBPmtM8GA8/sf9unlSuwg==}
+  /dompurify/2.2.6:
+    resolution: {integrity: sha512-7b7ZArhhH0SP6W2R9cqK6RjaU82FZ2UPM7RO8qN1b1wyvC/NY1FNWcX1Pu00fFOAnzEORtwXe4bPaClg6pUybQ==}
     dev: false
 
   /domutils/1.5.1:
@@ -4292,6 +4298,7 @@ packages:
 
   /extend/3.0.2:
     resolution: {integrity: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==}
+    dev: true
 
   /extglob/2.0.4:
     resolution: {integrity: sha512-Nmb6QXkELsuBr24CJSkilo6UHHgbekK5UiZgfE6UHD3Eb27YC6oD+bhcT+tJ6cl8dmsgdQxnWlcry8ksBIBLpw==}
@@ -4761,14 +4768,6 @@ packages:
     resolution: {integrity: sha512-carPklcUh7ROWRK7Cv27RPtdhYhUsela/ue5/jKzjegVvXDqM2ILE9Q2BGn9JZJh1g87cp56su/FgQSzcWS8cQ==}
     dev: true
 
-  /http-proxy-agent/0.2.7:
-    resolution: {integrity: sha1-4X/aZfCQLZUs55IeYsf/iGJlWl4=}
-    dependencies:
-      agent-base: 1.0.2
-      debug: 2.6.9
-      extend: 3.0.2
-    dev: false
-
   /http-proxy-agent/4.0.1:
     resolution: {integrity: sha512-k0zdNgqWTGA6aeIRVpvfVob4fL52dTfaehylg0Y4UvSySvOq/Y+BOyPrgpUrA7HylqvU8vIZGsRuXmspskV0Tg==}
     engines: {node: '>= 6'}
@@ -4786,14 +4785,6 @@ packages:
       jsprim: 1.4.1
       sshpk: 1.16.1
     dev: true
-
-  /https-proxy-agent/0.3.6:
-    resolution: {integrity: sha1-cT+jjl01P1DrFKNC/r4pAz7RYZs=}
-    dependencies:
-      agent-base: 1.0.2
-      debug: 2.6.9
-      extend: 3.0.2
-    dev: false
 
   /https-proxy-agent/5.0.0:
     resolution: {integrity: sha512-EkYm5BcKUGiduxzSt3Eppko+PiNWNEpa4ySk9vTC6wDsQJW9rHSa+UhGNJoRYp7bz6Ht1eaRIa6QaJqO5rCFbA==}
@@ -4939,6 +4930,10 @@ packages:
   /is-arrayish/0.2.1:
     resolution: {integrity: sha1-d8mYQFJ6qOyxqLppe4BkWnqSap0=}
     dev: true
+
+  /is-arrayish/0.3.2:
+    resolution: {integrity: sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==}
+    dev: false
 
   /is-binary-path/1.0.1:
     resolution: {integrity: sha1-dfFmQrSA8YenEcgUFh/TpKdlWJg=}
@@ -5147,10 +5142,6 @@ packages:
   /is-typedarray/1.0.0:
     resolution: {integrity: sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=}
     dev: true
-
-  /is-utf8/0.2.1:
-    resolution: {integrity: sha1-Sw2hRCEE0bM2NA6AeX6GXPOffXI=}
-    dev: false
 
   /is-windows/1.0.2:
     resolution: {integrity: sha512-eXK1UInq2bPmjyX6e3VHIzMLobc4J94i4AWn+Hpq3OU5KkrRC96OAcR3PRJ/pGu6m8TRnBHP9dkXQVsT/COVIA==}
@@ -5907,8 +5898,8 @@ packages:
     resolution: {integrity: sha512-zR6HoT6LrLCRBwukmrVbHv0EpEQjksO6GmFcZQQuCAy139BEsoVKPYnf3jongYW83fAa1torLGYwxxky/p28sg==}
     dev: true
 
-  /noice-json-rpc/1.0.1:
-    resolution: {integrity: sha1-XnKJpgocIIgEicsVEBVSusOSJm4=}
+  /noice-json-rpc/1.2.0:
+    resolution: {integrity: sha512-Wm+otW+drKzdqlSPoSwj34tUEq/Xj1gX6Cr2avrykvTW4IY7d3ngLmP+PErALzS0s9nYRokXvYDM54sbFvLlDA==}
     dev: false
 
   /nopt/5.0.0:
@@ -6161,11 +6152,6 @@ packages:
       type-check: 0.4.0
       word-wrap: 1.2.3
     dev: true
-
-  /options/0.0.6:
-    resolution: {integrity: sha1-7CLTEoBrtT5zF3Pnza788cZDEo8=}
-    engines: {node: '>=0.4.0'}
-    dev: false
 
   /os-locale/1.4.0:
     resolution: {integrity: sha1-IPnxeuKe00XoveWDsT0gCYA8FNk=}
@@ -6515,16 +6501,15 @@ packages:
       strip-json-comments: 2.0.1
     dev: true
 
-  /react-dom/16.6.3_react@16.6.3:
-    resolution: {integrity: sha512-8ugJWRCWLGXy+7PmNh8WJz3g1TaTUt1XyoIcFN+x0Zbkoz+KKdUyx1AQLYJdbFXjuF41Nmjn5+j//rxvhFjgSQ==}
+  /react-dom/17.0.1_react@17.0.1:
+    resolution: {integrity: sha512-6eV150oJZ9U2t9svnsspTMrWNyHc6chX0KzDeAOXftRa8bNeOKTTfCJ7KorIwenkHd2xqVTBTCZd79yk/lx/Ug==}
     peerDependencies:
-      react: ^16.6.3
+      react: 17.0.1
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
-      prop-types: 15.7.2
-      react: 16.6.3
-      scheduler: 0.11.3
+      react: 17.0.1
+      scheduler: 0.20.2
     dev: false
 
   /react-is/16.13.1:
@@ -6534,7 +6519,7 @@ packages:
     resolution: {integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==}
     dev: false
 
-  /react-virtualized/9.20.1_react-dom@16.6.3+react@16.6.3:
+  /react-virtualized/9.20.1_react-dom@17.0.1+react@17.0.1:
     resolution: {integrity: sha512-xIWxBsyNAjceqD3hsE0nw5TcDVxKbIepsHhvS2XneHmNz0KlKxdLdGBmGZBM9ZesEmbZ5EO0Sw70TB1MeCmpbQ==}
     peerDependencies:
       react: ^15.3.0 || ^16.0.0-alpha
@@ -6545,19 +6530,25 @@ packages:
       dom-helpers: 3.4.0
       loose-envify: 1.4.0
       prop-types: 15.7.2
-      react: 16.6.3
-      react-dom: 16.6.3_react@16.6.3
+      react: 17.0.1
+      react-dom: 17.0.1_react@17.0.1
       react-lifecycles-compat: 3.0.4
     dev: false
 
-  /react/16.6.3:
-    resolution: {integrity: sha512-zCvmH2vbEolgKxtqXL2wmGCUxUyNheYn/C+PD1YAjfxHC54+MhdruyhO7QieQrYsYeTxrn93PM2y0jRH1zEExw==}
+  /react/17.0.1:
+    resolution: {integrity: sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
-      prop-types: 15.7.2
-      scheduler: 0.11.3
+    dev: false
+
+  /react/17.0.2:
+    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
     dev: false
 
   /read-package-json-fast/2.0.2:
@@ -6752,14 +6743,6 @@ packages:
     engines: {node: '>=0.10'}
     dev: true
     optional: true
-
-  /request-light/0.1.0:
-    resolution: {integrity: sha1-/mXd/7suh5RPDMr9hcuDnpE4U0U=}
-    dependencies:
-      http-proxy-agent: 0.2.7
-      https-proxy-agent: 0.3.6
-      vscode-nls: 1.0.7
-    dev: false
 
   /request/2.88.2:
     resolution: {integrity: sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==}
@@ -7041,15 +7024,8 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
-  /sb-fs/4.0.0:
-    resolution: {integrity: sha512-UjjIHC4uahPWvKYqgknvFCCJ11S0oDahz+nsmyTCAmARKto31aoE+Lu7GGGK0nogengJEKGzFdh46ho5+IL88Q==}
-    engines: {node: '>= 8'}
-    dependencies:
-      strip-bom-buf: 1.0.0
-    dev: false
-
-  /scheduler/0.11.3:
-    resolution: {integrity: sha512-i9X9VRRVZDd3xZw10NY5Z2cVMbdYg6gqFecfj79USv1CFN+YrJ3gIPRKf1qlY+Sxly4djoKdfx1T+m9dnRB8kQ==}
+  /scheduler/0.20.2:
+    resolution: {integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==}
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
@@ -7093,12 +7069,6 @@ packages:
     resolution: {integrity: sha512-+GB6zVA9LWh6zovYQLALHwv5rb2PHGlJi3lfiqIHxR0uuwCgefcOJc59v9fv1w8GbStwxuuqqAjI9NMAOOgq1A==}
     hasBin: true
     dev: true
-
-  /semver/7.3.2:
-    resolution: {integrity: sha512-OrOb32TeeambH6UrhtShmF7CRDqhL6/5XpPNp2DuRH6+9QLw/orhp72j87v8Qa1ScDkvrrBNpZcDejAirJmfXQ==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dev: false
 
   /semver/7.3.4:
     resolution: {integrity: sha512-tCfb2WLjqFAtXn4KEdxIhalnRtoKFN7nAwj0B3ZXCbQloV2tq5eDbcTmT68JJD3nRJq24/XgxtQKFIpQdtvmVw==}
@@ -7197,6 +7167,12 @@ packages:
   /signal-exit/3.0.3:
     resolution: {integrity: sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==}
     dev: true
+
+  /simple-swizzle/0.2.2:
+    resolution: {integrity: sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=}
+    dependencies:
+      is-arrayish: 0.3.2
+    dev: false
 
   /sisteransi/1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
@@ -7309,11 +7285,11 @@ packages:
   /source-map/0.5.7:
     resolution: {integrity: sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=}
     engines: {node: '>=0.10.0'}
+    dev: true
 
   /source-map/0.6.1:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
-    dev: true
 
   /source-map/0.7.3:
     resolution: {integrity: sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==}
@@ -7484,13 +7460,6 @@ packages:
     dependencies:
       ansi-regex: 5.0.0
     dev: true
-
-  /strip-bom-buf/1.0.0:
-    resolution: {integrity: sha1-HLRar1dTD0yvhsf3UXnSyaUd1XI=}
-    engines: {node: '>=4'}
-    dependencies:
-      is-utf8: 0.2.1
-    dev: false
 
   /strip-bom/3.0.0:
     resolution: {integrity: sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=}
@@ -7720,10 +7689,6 @@ packages:
     hasBin: true
     dev: true
 
-  /ultron/1.0.2:
-    resolution: {integrity: sha1-rOEWq1V80Zc4ak6I9GhTeMiy5Po=}
-    dev: false
-
   /underscore-plus/1.7.0:
     resolution: {integrity: sha512-A3BEzkeicFLnr+U/Q3EyWwJAQPbA19mtZZ4h+lLq3ttm9kn8WC4R3YpuJZEXmWdLjYP47Zc8aLZm9kwdv+zzvA==}
     dependencies:
@@ -7851,6 +7816,7 @@ packages:
 
   /uuid/3.0.1:
     resolution: {integrity: sha1-ZUS7ot/ajBzxfmKaOjBeK7H+5sE=}
+    deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
     hasBin: true
     dev: false
 
@@ -7886,24 +7852,27 @@ packages:
       extsprintf: 1.3.0
     dev: true
 
-  /vscode-chrome-debug-core/3.17.10:
-    resolution: {integrity: sha1-4tc0x/uhJfq6+AQzNPgTTzNqNLs=}
+  /vscode-chrome-debug-core/6.8.11:
+    resolution: {integrity: sha512-SZZHhKeatXCDqlD+6E/EtEJqcteDJD6y3IVV+6VXX1d1wxPxlJyYcoLhtnX/X5Vvo/5CEm5s8DNGkFoiHgxOUw==}
     dependencies:
       '@types/source-map': 0.1.29
+      color: 3.2.1
+      devtools-protocol: 0.0.588169
       glob: 7.1.6
-      noice-json-rpc: 1.0.1
-      request-light: 0.1.0
-      source-map: 0.5.7
-      vscode-debugadapter: 1.24.0
+      noice-json-rpc: 1.2.0
+      source-map: 0.6.1
+      vscode-debugadapter: 1.49.0
       vscode-debugprotocol: 1.42.0
-      vscode-nls: 2.0.2
-      ws: 1.1.5
+      vscode-nls: 4.1.2
+      vscode-uri: 2.1.2
+      ws: 6.2.2
     dev: false
 
-  /vscode-debugadapter/1.24.0:
-    resolution: {integrity: sha1-KAY7AcyorB5fehPRGOMgem6If/0=}
+  /vscode-debugadapter/1.49.0:
+    resolution: {integrity: sha512-nhes9zaLanFcHuchytOXGsLTGpU5qkz10mC9gVchiwNuX2Bljmc6+wsNbCyE5dOxu6F0pn3f+LEJQGMU1kcnvQ==}
     dependencies:
-      vscode-debugprotocol: 1.42.0
+      mkdirp: 1.0.4
+      vscode-debugprotocol: 1.49.0
     dev: false
 
   /vscode-debugprotocol/1.24.0:
@@ -7912,6 +7881,10 @@ packages:
 
   /vscode-debugprotocol/1.42.0:
     resolution: {integrity: sha512-nVsfVCat9FZlOso5SYB1LQQiFGifTyOALpkpJdudDlRXGTpI3mSFiDYXWaoFm7UcfqTOzn1SC7Hqw4d89btT0w==}
+    dev: false
+
+  /vscode-debugprotocol/1.49.0:
+    resolution: {integrity: sha512-3VkK3BmaqN+BGIq4lavWp9a2IC6VYgkWkkMQm6Sa5ACkhBF6ThJDrkP+/3rFE4G7F8+mM3f4bhhJhhMax2IPfg==}
     dev: false
 
   /vscode-json-languageservice/3.7.0:
@@ -7937,17 +7910,12 @@ packages:
     resolution: {integrity: sha512-+a9MPUQrNGRrGU630OGbYVQ+11iOIovjCkqxajPa9w57Sd5ruK8WQNsslzpa0x/QJqC8kRc2DUxWjIFwoNm4ZQ==}
     dev: true
 
-  /vscode-nls/1.0.7:
-    resolution: {integrity: sha1-KYwB/Oh4AsZEwKFe9SajPGLA1Y4=}
-    dev: false
-
-  /vscode-nls/2.0.2:
-    resolution: {integrity: sha1-gIUiOAhEuK0VNJmvXDsDkhrqAto=}
-    dev: false
-
   /vscode-nls/4.1.2:
     resolution: {integrity: sha512-7bOHxPsfyuCqmP+hZXscLhiHwe7CSuFE4hyhbs22xPIhQ4jv99FcR4eBzfYYVLP356HNFpdvz63FFb/xw6T4Iw==}
-    dev: true
+
+  /vscode-nls/5.0.0:
+    resolution: {integrity: sha512-u0Lw+IYlgbEJFF6/qAqG2d1jQmJl0eyAGJHoAJqr2HT4M2BNuQYSEiSE75f52pXHSJm8AlTjnLLbBFPrdz2hpA==}
+    dev: false
 
   /vscode-uri/1.0.1:
     resolution: {integrity: sha1-Eahr7+rDxKo+wIYjZRo8gabQu8g=}
@@ -7955,7 +7923,6 @@ packages:
 
   /vscode-uri/2.1.2:
     resolution: {integrity: sha512-8TEXQxlldWAuIODdukIb+TR5s+9Ds40eSJrw+1iDDA9IFORPjMELarNQE3myz5XIkWWpdprmJjm1/SxMlWOC8A==}
-    dev: true
 
   /webidl-conversions/4.0.2:
     resolution: {integrity: sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==}
@@ -8022,11 +7989,10 @@ packages:
       typedarray-to-buffer: 3.1.5
     dev: true
 
-  /ws/1.1.5:
-    resolution: {integrity: sha512-o3KqipXNUdS7wpQzBHSe180lBGO60SoK0yVo3CYJgb2MkobuWuBX6dhkYP5ORCLd55y+SaflMOV5fqAB53ux4w==}
+  /ws/6.2.2:
+    resolution: {integrity: sha512-zmhltoSR8u1cnDsD43TX59mzoMZsLKqUweyYBAIvTngR3shc0W6aOZylZmq/7hqyVxPdi+5Ud2QInblgyE72fw==}
     dependencies:
-      options: 0.0.6
-      ultron: 1.0.2
+      async-limiter: 1.0.1
     dev: false
 
   /xdg-basedir/4.0.0:
